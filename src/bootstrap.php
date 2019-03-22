@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../lib/common/customFunctions.php';
+require_once __DIR__ . '/../lib/Common/customFunctions.php';
 
 spl_autoload_register(function (string $class) {
     $path      = explode('\\', $class);
